@@ -1,0 +1,144 @@
+==== Path: bio\eb_base_t1\eval_results.csv ====
+Metric,Value
+Kantorovich v2,[0.6037 0.6391]
+Kantorovich v2 mean,0.6213843930854945
+Kantorovich v1,[0.2699 0.6084 0.1576 0.2955 0.3237]
+Kantorovich v1 mean,0.33100054211810825
+MSE,None
+MSE mean,None
+MSE v2,[0.039  0.0812]
+MSE v2 mean,0.06008384749293327
+
+
+==== Path: bio\eb_base_t2\eval_results.csv ====
+Metric,Value
+Kantorovich v2,[0.4928 0.4102]
+Kantorovich v2 mean,0.45151526835501576
+Kantorovich v1,[0.423  0.5623 0.4788 0.2416 0.2764]
+Kantorovich v1 mean,0.3964104978011053
+MSE,None
+MSE mean,None
+MSE v2,[0.0129 0.027 ]
+MSE v2 mean,0.019948956556618214
+
+
+==== Path: bio\eb_DV_t2\eval_results.csv ====
+Metric,Value
+Kantorovich v2,[0.3875 0.4195]
+Kantorovich v2 mean,0.4034927355955138
+Kantorovich v1,[0.4324 0.4005 0.3929 0.3578 0.2947]
+Kantorovich v1 mean,0.3756581294660326
+MSE,None
+MSE mean,None
+MSE v2,[0.0041 0.0237]
+MSE v2 mean,0.013870010850951076
+
+
+==== Path: bio\eb_DV_t1\eval_results.csv ====
+Metric,Value
+Kantorovich v2,[0.57  0.503]
+Kantorovich v2 mean,0.5365128548571636
+Kantorovich v1,[0.1957 0.5558 0.2703 0.2917 0.3856]
+Kantorovich v1 mean,0.33981314723078987
+MSE,None
+MSE mean,None
+MSE v2,[0.0249 0.0177]
+MSE v2 mean,0.021303389221429825
+
+
+==== Path: bio\eb_base_t3\eval_results.csv ====
+Metric,Value
+Kantorovich v2,[0.5655 0.3396]
+Kantorovich v2 mean,0.45250559929282447
+Kantorovich v1,[0.393  0.4025 0.3684 0.5231 0.3204]
+Kantorovich v1 mean,0.40145982986877693
+MSE,None
+MSE mean,None
+MSE v2,[0.0034 0.0037]
+MSE v2 mean,0.003562032710760832
+
+
+==== Path: bio\eb_D_t1\eval_results.csv ====
+Metric,Value
+Kantorovich v2,[0.7103 0.5667]
+Kantorovich v2 mean,0.6384712219862507
+Kantorovich v1,[0.3316 0.6665 0.2069 0.284  0.2718]
+Kantorovich v1 mean,0.35217039232571373
+MSE,None
+MSE mean,None
+MSE v2,[0.0311 0.0288]
+MSE v2 mean,0.02997288852930069
+
+
+==== Path: bio\eb_V_t3\eval_results.csv ====
+Metric,Value
+Kantorovich v2,[0.5986 0.3217]
+Kantorovich v2 mean,0.46015884164947884
+Kantorovich v1,[0.4764 0.2309 0.3148 0.4013 0.3619]
+Kantorovich v1 mean,0.35707668250427177
+MSE,None
+MSE mean,None
+MSE v2,[0.0028 0.0033]
+MSE v2 mean,0.0030654093716293573
+
+
+==== Path: bio\eb_V_t2\eval_results.csv ====
+Metric,Value
+Kantorovich v2,[0.4187 0.3649]
+Kantorovich v2 mean,0.39178423677900354
+Kantorovich v1,[0.4387 0.2059 0.3278 0.2637 0.3033]
+Kantorovich v1 mean,0.3078756520908796
+MSE,None
+MSE mean,None
+MSE v2,[0.0242 0.0096]
+MSE v2 mean,0.016929754987359047
+
+
+==== Path: bio\eb_D_t2\eval_results.csv ====
+Metric,Value
+Kantorovich v2,[0.3582 0.484 ]
+Kantorovich v2 mean,0.4210742223109889
+Kantorovich v1,[0.2317 0.3736 0.3651 0.3659 0.2918]
+Kantorovich v1 mean,0.32561205198256105
+MSE,None
+MSE mean,None
+MSE v2,[0.0031 0.0332]
+MSE v2 mean,0.018135139835067093
+
+
+==== Path: bio\eb_D_t3\eval_results.csv ====
+Metric,Value
+Kantorovich v2,[0.6004 0.3227]
+Kantorovich v2 mean,0.46155345600092174
+Kantorovich v1,[0.3781 0.4327 0.3506 0.4988 0.2347]
+Kantorovich v1 mean,0.37895372476072087
+MSE,None
+MSE mean,None
+MSE v2,[0.0033 0.0027]
+MSE v2 mean,0.002971645910292864
+
+
+==== Path: bio\eb_V_t1\eval_results.csv ====
+Metric,Value
+Kantorovich v2,[0.5176 0.5176]
+Kantorovich v2 mean,0.51757061063968
+Kantorovich v1,[0.5871 0.4874 0.2696 0.2291 0.4017]
+Kantorovich v1 mean,0.39496151765930476
+MSE,None
+MSE mean,None
+MSE v2,[0.0154 0.0168]
+MSE v2 mean,0.01610903861001134
+
+
+==== Path: bio\eb_DV_t3\eval_results.csv ====
+Metric,Value
+Kantorovich v2,[0.6406 0.2482]
+Kantorovich v2 mean,0.44435831920120933
+Kantorovich v1,[0.3854 0.3575 0.3395 0.4401 0.3389]
+Kantorovich v1 mean,0.3722763644811945
+MSE,None
+MSE mean,None
+MSE v2,[0.0022 0.0029]
+MSE v2 mean,0.0025468452367931604
+
+

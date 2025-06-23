@@ -1,0 +1,36 @@
+==== Path: energy\eb_base_E_t3\eval_results.csv ====
+Metric,Value
+Kantorovich v2,[0.5927 0.519 ]
+Kantorovich v2 mean,0.5558509288921512
+Kantorovich v1,[1.9916 0.5434 0.5132 0.722  0.7078]
+Kantorovich v1 mean,0.8955997378589913
+MSE,None
+MSE mean,None
+MSE v2,[0.0038 0.0042]
+MSE v2 mean,0.004008489660918713
+
+
+==== Path: energy\eb_base_E_t1\eval_results.csv ====
+Metric,Value
+Kantorovich v2,[0.9332 1.3678]
+Kantorovich v2 mean,1.1505063598660568
+Kantorovich v1,[2.0651 0.9375 0.3693 0.4221 0.5619]
+Kantorovich v1 mean,0.8711930695187393
+MSE,None
+MSE mean,None
+MSE v2,[0.0292 0.1639]
+MSE v2 mean,0.09656120650470257
+
+
+==== Path: energy\eb_base_E_t2\eval_results.csv ====
+Metric,Value
+Kantorovich v2,[0.5088 0.5723]
+Kantorovich v2 mean,0.540557296746437
+Kantorovich v1,[1.9528 0.513  0.6718 0.313  0.38  ]
+Kantorovich v1 mean,0.7661355781481233
+MSE,None
+MSE mean,None
+MSE v2,[0.0113 0.0118]
+MSE v2 mean,0.01153062004595995
+
+

@@ -1,0 +1,215 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250526164551
+Username: saluz\dell
+RunAs User: saluz\dell
+Configuration Name: 
+Machine: SALUZ (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\dell\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 25400
+PSVersion: 5.1.26100.4061
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.4061
+BuildVersion: 10.0.26100.4061
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt
+=== Running: Dataset=TREE, SaveDir=results\TREE_base ===
+PS>TerminatingError(out-file): "The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process."
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because 
+it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+=== Running: Dataset=TREE, SaveDir=results\TREE_baseD ===
+PS>TerminatingError(out-file): "The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process."
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because 
+it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+=== Running: Dataset=TREE, SaveDir=results\TREE_baseDV ===
+PS>TerminatingError(out-file): "The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process."
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because 
+it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+=== Running: Dataset=TREE, SaveDir=results\TREE_base_V ===
+PS>TerminatingError(out-file): "The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process."
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because 
+it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+=== Running: Dataset=CIRCLE5, SaveDir=results\CIRCLE5_base ===
+PS>TerminatingError(out-file): "The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process."
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because 
+it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+=== Running: Dataset=CIRCLE5, SaveDir=results\CIRCLE5_baseD ===
+PS>TerminatingError(out-file): "The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process."
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because 
+it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+=== Running: Dataset=CIRCLE5, SaveDir=results\CIRCLE5_baseDV ===
+PS>TerminatingError(out-file): "The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process."
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because 
+it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+=== Running: Dataset=CIRCLE5, SaveDir=results\CIRCLE5_base_V ===
+PS>TerminatingError(out-file): "The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process."
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because 
+it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+=== Running: Dataset=CYCLE, SaveDir=results\CYCLE_base ===
+PS>TerminatingError(out-file): "The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process."
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because 
+it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+=== Running: Dataset=CYCLE, SaveDir=results\CYCLE_baseD ===
+PS>TerminatingError(out-file): "The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process."
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because 
+it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+=== Running: Dataset=CYCLE, SaveDir=results\CYCLE_baseDV ===
+PS>TerminatingError(out-file): "The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process."
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because 
+it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+=== Running: Dataset=CYCLE, SaveDir=results\CYCLE_base_V ===
+PS>TerminatingError(out-file): "The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process."
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because 
+it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : The process cannot access the file 'H:\crous 2026\TrajectoryNet-master\eval_log_20250526_164551.txt' because it is being used by another process.
+At H:\crous 2026\TrajectoryNet-master\run.ps1:39 char:9
++         & cmd /c $cmd 2>&1 | Tee-Object -FilePath $logFile -Append
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+**********************
+Windows PowerShell transcript end
+End time: 20250526164555
+**********************
