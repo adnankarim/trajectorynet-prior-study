@@ -8,8 +8,8 @@ Minimal repo for training and evaluating TrajectoryNet with different base prior
 git clone https://github.com/adnankarim/trajectorynet-prior-study.git
 cd trajectorynet-prior-study
 ├── TrajectoryNet    #main repo for trian,eval files
-├── scripts/         # Training and evaluation scripts
-├── priors/          #base fitted priors weights
+├── scripts/         # Training, Visualization and evaluation scripts
+├── priors-weights/          #base fitted priors weights
 ├── results/         # Output metrics and logs
 ├── requirements.txt # Dependencies
 ├── README.md        # This file
