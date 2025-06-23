@@ -1,84 +1,68 @@
-# trajectorynet-prior-study
 
-# trajectorynet-reproduction
 
-A reproduction of the synthetic experiments from **TrajectoryNet: A Dynamic Optimal Transport Network for Modeling Cellular Dynamics** by Tong *et al.* (ICML 2020).
+Minimal repo for training and evaluating TrajectoryNet with different base priors.
 
 ## Repository Structure
 
-```
-trajectorynet-reproduction/
-├── data/                  # Synthetic datasets (TREE, ARCH, CYCLE)
-├── notebooks/             # Jupyter notebooks for data preprocessing, training, and evaluation
-├── src/                   # Python scripts for model implementation and utilities
-│   ├── data_utils.py
-│   ├── model.py
-│   ├── train.py
-│   └── evaluate.py
-├── results/               # Generated figures, metrics (EMD, MSE)
-├── environment.yml        # Conda environment specification
-└── README.md              # Project overview and instructions
+```bash
+git clone https://github.com/adnankarim/trajectorynet-prior-study.git
+cd trajectorynet-prior-study
+├── TrajectoryNet    #main repo for trian,eval files
+├── scripts/         # Training and evaluation scripts
+├── priors/          #base fitted priors weights
+├── results/         # Output metrics and logs
+├── requirements.txt # Dependencies
+├── README.md        # This file
+├── LICENSE.md       # License
 ```
 
 ## Installation
 
-1. Clone the repository:
+Install Python dependencies:
 
-   ```bash
-   git clone https://github.com/adnankarim/trajectorynet-prior-study
-   cd trajectorynet-reproduction
-   ```
-
-2. Create and activate the conda environment:
-
-   ```bash
-   conda env create -f environment.yml
-   conda activate trajnet
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
-1. **Data Preprocessing:**
+### Training
 
-   ```bash
-   python src/data_utils.py --dataset ARCH --preprocess
-   ```
+Train TrajectoryNet via module invocation with a specified base prior:
 
-2. **Training:**
+```bash
+python -m TrajectoryNet.train \
+  --dataset DATASET_NAME \
+  --prior PRIOR_NAME \
+  --output-dir results/PRIOR_NAME_run
+```
 
-   ```bash
-   python src/train.py --dataset TREE --base gaussian --epochs 10000
-   ```
+Supported priors: `gaussian`, `gmm`, `gmmtorch`, `empirical`, `nsf`
 
-3. **Evaluation:**
+### Evaluation
 
-   ```bash
-   python src/evaluate.py --dataset CYCLE --metrics emd mse
-   ```
+Evaluate a trained model using the `eval` module, specifying embedding and leave-out timepoint:
 
-4. **Notebooks:**
-   Open `notebooks/analysis.ipynb` for visualizations and detailed walkthroughs.
+```bash
+python -m TrajectoryNet.eval \
+  --dataset DATASET_NAME \
+  --embedding_name PCA \
+  --leaveout_timepoint 1 \
+  --save results/PRIOR_NAME_run
+```
 
-## Results
+#### Batch Evaluation Example (Windows)
 
-* Quantitative metrics (EMD, MSE) for ARCH, TREE, and CYCLE datasets.
-* Comparison of base distributions: Gaussian, GMM, Neural Spline Flow.
-* Figures illustrating interpolated trajectories.
-
-See the `results/` directory for detailed plots and tables.
+```bat
+for %%d in (circle5_base circle5_baseD circle5_baseDV circle5_base_V) do (
+  python -m TrajectoryNet.eval --dataset CIRCLE5 --embedding_name PCA --leaveout_timepoint 1 --save results/%%d
+)
+```
 
 ## License
 
-MIT License. Feel free to use and modify.
+MIT License. See [LICENSE.md](LICENSE.md).
 
 ## Citation
-
-If you use this code, please cite:
 
 > Tong, A., Huang, J., Wolf, G., van Dijk, D., & Krishnaswamy, S. (2020). TrajectoryNet: A Dynamic Optimal Transport Network for Modeling Cellular Dynamics. *ICML 2020*.
